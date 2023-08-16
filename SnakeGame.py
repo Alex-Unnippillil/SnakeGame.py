@@ -12,11 +12,11 @@ score = 0
 high_score = 0
 
 # Set up the screen
-wn = turtle.Screen()
-wn.title("Snake Game")
-wn.bgcolor("black")
-wn.setup(width=600, height=600)
-wn.tracer(0)  # Turns off the screen updates
+wn = turtle.Screen() 
+wn.title("Snake Game") # window title
+wn.bgcolor("black") # background colour
+wn.setup(width=600, height=600) # window dimensions 
+wn.tracer(0)  # Turns off the screen update
 
 # Snake head
 head = turtle.Turtle()
